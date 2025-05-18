@@ -1,0 +1,142 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #333;
+    padding: 1rem;
+}
+
+nav a {
+    color: white;
+    margin-right: 1rem;
+    text-decoration: none;
+}
+
+.container {
+    padding: 2rem;
+}
+
+.auth-form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.events-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.event-form {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    border-radius: 5px;
+}
+
+.events-list {
+    margin-top: 2rem;
+}
+
+.event-item {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+#logoutBtn:hover {
+    background: #c82333;
+    transform: scale
+
+
+.ymaps-balloon {
+    z-index: 9999 !important;
+}
+
+.ymaps-balloon__content {
+    border: 2px solid red !important;
+}
+
+.ymaps-balloon-content {
+    max-width: 300px !important;
+    overflow: visible;
+    font-family: Arial, sans-serif;
+}
+
+.ymaps-balloon__tail {
+    z-index: 9999 !important;
+}
+
+.reactions {
+    margin-top: 10px;
+    border-top: 1px solid #ddd;
+    padding-top: 10px;
+}
+
+.reaction-btn {
+    background: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.reactions button[data-type="not_going"] {
+    background: #f44336;
+}
+
+select {
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.close-balloon:hover {
+    background: #f8f9fa !important;
+    transform: rotate(90deg);
+    transition: 0.3s;
+}
+
+.delete-event-btn:hover {
+    opacity: 0.9 !important;
+    transform: translateY(-1px);
+}

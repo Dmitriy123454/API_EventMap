@@ -1,0 +1,29 @@
+# Игнорирование виртуального окружения
+venv/
+.env
+*.pyc
+__pycache__/
+
+# Игнорирование зависимостей
+Pipfile
+Pipfile.lock
+requirements.txt
+
+# Логи и артефакты сборки
+logs/
+*.log
+dist/
+build/
+*.egg-info/
+
+.idea
+
+### Django ###
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+
+lab1/tsp/.env
+db.sqlite3
